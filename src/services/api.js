@@ -7,6 +7,9 @@ export const authenticate = async (username, password) => {
         await axios.get(`${baseUrl}/authenticate`, {
             auth: { username, password },
             withCredentials: true
+        })
+        .then((res) => {
+            console.log(res)
         });
         return true;
     } catch (e) {

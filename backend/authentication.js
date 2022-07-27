@@ -59,6 +59,8 @@ const cookieAuth = (req, res, next) => {
     if(!req.signedCookies.user || !users[req.signedCookies.user]) {
         res.sendStatus(401);
     } else {
+        console.log(req.signedCookies)
+        console.log(users[req.signedCookies.user])
         next();
     }
 }

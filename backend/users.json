@@ -1,7 +1,1 @@
-{
-  "users": {
-    "user": {
-      "passwordHash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
-    }
-  }
-}
+{"users":{"user":{"passwordHash":"5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"},"":{"passwordHash":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"testing":{"passwordHash":"0218b3506b9b9de4fd357c0865a393471b73fc5ea972c5731219cfae32cee483"}}}
